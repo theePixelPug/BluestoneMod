@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "bluestone",
+  "version": "${version}",
+
+  "name": "Bluestone",
+  "description": "Adds Bluestone to Minecraft!",
+  "authors": [
+    "theePixelPug"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UCJMuarQxJTlaO2tmvniUZFA",
+    "sources": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/bluestone/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.theepixelpug.bluestone.BluestoneMod"
+    ],
+    "client": [
+      "net.theepixelpug.bluestone.BluestoneClient"
+    ]
+  },
+  "mixins": [
+    "bluestone.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

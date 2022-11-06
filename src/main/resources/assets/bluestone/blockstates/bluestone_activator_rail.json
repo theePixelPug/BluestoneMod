@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "bluestone_powered=false,shape=ascending_east": {
+      "model": "bluestone:block/bluestone_activator_rail_raised_ne",
+      "y": 90
+    },
+    "bluestone_powered=false,shape=ascending_north": {
+      "model": "bluestone:block/bluestone_activator_rail_raised_ne"
+    },
+    "bluestone_powered=false,shape=ascending_south": {
+      "model": "bluestone:block/bluestone_activator_rail_raised_sw"
+    },
+    "bluestone_powered=false,shape=ascending_west": {
+      "model": "bluestone:block/bluestone_activator_rail_raised_sw",
+      "y": 90
+    },
+    "bluestone_powered=false,shape=east_west": {
+      "model": "bluestone:block/bluestone_activator_rail",
+      "y": 90
+    },
+    "bluestone_powered=false,shape=north_south": {
+      "model": "bluestone:block/bluestone_activator_rail"
+    },
+    "bluestone_powered=true,shape=ascending_east": {
+      "model": "bluestone:block/bluestone_activator_rail_on_raised_ne",
+      "y": 90
+    },
+    "bluestone_powered=true,shape=ascending_north": {
+      "model": "bluestone:block/bluestone_activator_rail_on_raised_ne"
+    },
+    "bluestone_powered=true,shape=ascending_south": {
+      "model": "bluestone:block/bluestone_activator_rail_on_raised_sw"
+    },
+    "bluestone_powered=true,shape=ascending_west": {
+      "model": "bluestone:block/bluestone_activator_rail_on_raised_sw",
+      "y": 90
+    },
+    "bluestone_powered=true,shape=east_west": {
+      "model": "bluestone:block/bluestone_activator_rail_on",
+      "y": 90
+    },
+    "bluestone_powered=true,shape=north_south": {
+      "model": "bluestone:block/bluestone_activator_rail_on"
+    }
+  }
+}

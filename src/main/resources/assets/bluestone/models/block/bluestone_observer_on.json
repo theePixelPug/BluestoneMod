@@ -1,0 +1,6 @@
+{
+    "parent": "bluestone:block/bluestone_observer",
+    "textures": {
+        "bottom": "bluestone:block/bluestone_observer_back_on"
+    }
+}

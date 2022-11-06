@@ -1,0 +1,6 @@
+{
+    "parent": "block/observer",
+    "textures": {
+        "bottom": "block/redstone_observer_back_on"
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,red_to_blue_powered=false,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter",
+      "y": 270
+    },
+    "facing=east,red_to_blue_powered=false,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter_btr",
+      "y": 270
+    },
+    "facing=east,red_to_blue_powered=true,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter_rtb",
+      "y": 270
+    },
+    "facing=east,red_to_blue_powered=true,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter",
+      "y": 270
+    },
+    "facing=north,red_to_blue_powered=false,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter",
+      "y": 180
+    },
+    "facing=north,red_to_blue_powered=false,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter_btr",
+      "y": 180
+    },
+    "facing=north,red_to_blue_powered=true,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter_rtb",
+      "y": 180
+    },
+    "facing=north,red_to_blue_powered=true,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter",
+      "y": 180
+    },
+    "facing=south,red_to_blue_powered=false,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter"
+    },
+    "facing=south,red_to_blue_powered=false,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter_btr"
+    },
+    "facing=south,red_to_blue_powered=true,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter_rtb"
+    },
+    "facing=south,red_to_blue_powered=true,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter"
+    },
+    "facing=west,red_to_blue_powered=false,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter",
+      "y": 90
+    },
+    "facing=west,red_to_blue_powered=false,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter_btr",
+      "y": 90
+    },
+    "facing=west,red_to_blue_powered=true,blue_to_red_powered=false": {
+      "model": "bluestone:block/power_converter_rtb",
+      "y": 90
+    },
+    "facing=west,red_to_blue_powered=true,blue_to_red_powered=true": {
+      "model": "bluestone:block/power_converter",
+      "y": 90
+    }
+  }
+}

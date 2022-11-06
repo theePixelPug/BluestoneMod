@@ -1,0 +1,21 @@
+{
+  "block.bluestone.bluestone_ore": "Bluestone Ore",
+  "block.bluestone.deepslate_bluestone_ore": "Deepslate Bluestone Ore",
+  "item.bluestone.bluestone": "Bluestone Dust",
+  "block.bluestone.bluestone_torch": "Bluestone Torch",
+  "block.bluestone.bluestone_block": "Block of Bluestone",
+  "block.bluestone.bluestone_repeater": "Bluestone Repeater",
+  "block.bluestone.bluestone_comparator": "Bluestone Comparator",
+  "block.bluestone.bluestone_piston": "Bluestone Piston",
+  "block.bluestone.bluestone_sticky_piston": "Bluestone Sticky Piston",
+  "block.bluestone.bluestone_observer": "Bluestone Observer",
+  "block.bluestone.bluestone_dispenser": "Bluestone Dispenser",
+  "block.bluestone.bluestone_dropper": "Bluestone Dropper",
+  "block.bluestone.bluestone_target": "Bluestone Target",
+  "block.bluestone.bluestone_lamp": "Bluestone Lamp",
+  "block.bluestone.bluestone_note_block": "Bluestone Note Block",
+  "block.bluestone.power_converter": "Power Converter",
+  "block.bluestone.bluestone_powered_rail": "Bluestone Powered Rail",
+  "block.bluestone.bluestone_detector_rail": "Bluestone Detector Rail",
+  "block.bluestone.bluestone_activator_rail": "Bluestone Activator Rail"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/orientable_vertical",
+  "textures": {
+    "front": "minecraft:block/redstone_dropper_front_vertical",
+    "side": "minecraft:block/redstone_furnace_top"
+  }
+}

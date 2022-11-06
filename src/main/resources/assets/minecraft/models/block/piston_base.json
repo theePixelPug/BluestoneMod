@@ -1,0 +1,8 @@
+{
+    "parent": "block/piston_extended",
+    "textures": {
+        "bottom": "block/redstone_piston_bottom",
+        "side": "block/redstone_piston_side",
+        "inside": "block/redstone_piston_inner"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "bluestone:block/bluestone_piston_extended",
+    "textures": {
+        "bottom": "bluestone:block/bluestone_piston_bottom",
+        "side": "bluestone:block/bluestone_piston_side",
+        "inside": "bluestone:block/bluestone_piston_inner"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "bluestone:block/bluestone_lamp"
+    },
+    "lit=true": {
+      "model": "bluestone:block/bluestone_lamp_on"
+    }
+  }
+}

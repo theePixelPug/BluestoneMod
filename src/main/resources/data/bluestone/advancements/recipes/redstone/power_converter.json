@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bluestone_torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bluestone:bluestone_torch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_redstone_torch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_torch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe_br": {
+      "conditions": {
+        "recipe": "bluestone:power_converter_br"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_recipe_rb": {
+      "conditions": {
+        "recipe": "bluestone:power_converter_rb"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bluestone_torch",
+      "has_redstone_torch",
+      "has_the_recipe_br",
+      "has_the_recipe_rb"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bluestone:power_converter_br",
+      "bluestone:power_converter_rb"
+    ]
+  }
+}

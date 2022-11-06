@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "bluestone:block/bluestone_target_top",
+    "side": "bluestone:block/bluestone_target_side"
+  }
+}

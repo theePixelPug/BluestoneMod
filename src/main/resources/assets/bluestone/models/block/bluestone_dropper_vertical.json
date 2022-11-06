@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/orientable_vertical",
+  "textures": {
+    "front": "bluestone:block/bluestone_dropper_front_vertical",
+    "side": "bluestone:block/bluestone_furnace_top"
+  }
+}

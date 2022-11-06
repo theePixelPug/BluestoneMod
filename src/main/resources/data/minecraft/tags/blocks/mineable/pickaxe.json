@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "bluestone:bluestone_dispenser",
+    "bluestone:bluestone_ore",
+    "bluestone:deepslate_bluestone_ore",
+    "bluestone:bluestone_block",
+    "bluestone:bluestone_dropper",
+    "bluestone:bluestone_observer",
+    "bluestone:bluestone_piston",
+    "bluestone:bluestone_sticky_piston",
+    "bluestone:bluestone_piston_head"
+  ]
+}

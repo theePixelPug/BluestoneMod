@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "power_converter",
+  "key": {
+    "#": {
+      "item": "bluestone:bluestone_torch"
+    },
+    "J": {
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "item": "minecraft:stone"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "#XJ",
+    "III"
+  ],
+  "result": {
+    "item": "bluestone:power_converter"
+  }
+}

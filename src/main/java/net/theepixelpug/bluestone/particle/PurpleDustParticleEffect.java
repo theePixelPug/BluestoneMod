@@ -13,7 +13,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.Vec3f;
 
 public class PurpleDustParticleEffect extends AbstractDustParticleEffect {
-    public static final Vec3f PURPLE = new Vec3f(Vec3d.unpackRgb(0xC800C8));
+    public static final Vec3f PURPLE = new Vec3f(Vec3d.unpackRgb(0x800080));
     public static final DustParticleEffect DEFAULT;
     public static final Codec<DustParticleEffect> CODEC;
     public static final Factory<DustParticleEffect> PARAMETERS_FACTORY;

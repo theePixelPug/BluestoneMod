@@ -16,6 +16,7 @@ import net.minecraft.world.event.GameEvent;
 import net.theepixelpug.bluestone.interfaces.WorldMixinInterface;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(DoorBlock.class)
 public abstract class DoorBlockMixin extends Block {
@@ -76,7 +77,7 @@ public abstract class DoorBlockMixin extends Block {
                 this.playOpenCloseSound(world, pos, bl);
                 world.emitGameEvent(null, bl ? GameEvent.BLOCK_OPEN : GameEvent.BLOCK_CLOSE, pos);
             }
-            world.setBlockState(pos, (BlockState)((BlockState)state.with(DoorBlock.POWERED, bl)).with(DoorBlock.OPEN, bl), Block.NOTIFY_LISTENERS);
+            world.setBlockState(pos, state.with(DoorBlock.POWERED, bl).with(DoorBlock.OPEN, bl), Block.NOTIFY_LISTENERS);
         }
     }
 

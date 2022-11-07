@@ -13,6 +13,7 @@ import net.minecraft.world.BlockView;
 import net.theepixelpug.bluestone.interfaces.AbstractBlockMixinInterface;
 import net.theepixelpug.bluestone.interfaces.AbstractBlockStateMixinInterface;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(AbstractBlock.AbstractBlockState.class)
 public abstract class AbstractBlockStateMixin extends State<Block, BlockState> implements AbstractBlockStateMixinInterface {
@@ -20,10 +21,12 @@ public abstract class AbstractBlockStateMixin extends State<Block, BlockState> i
         super(owner, entries, codec);
     }
 
+    @Shadow
     public Block getBlock() {
         return (Block)this.owner;
     }
 
+    @Shadow
     public abstract BlockState asBlockState();
 
     @Override

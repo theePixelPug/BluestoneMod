@@ -16,7 +16,6 @@
     "SculkSensorBlockMixin",
     "TrappedChestBlockMixin",
     "TripwireHookBlockMixin",
-    "DustColorTransitionParticleEffectMixin",
     "AbstractRailBlockMixin",
     "RailBlockMixin",
     "RailPlacementHelperMixin",

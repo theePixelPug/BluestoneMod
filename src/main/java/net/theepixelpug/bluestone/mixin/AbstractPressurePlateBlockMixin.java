@@ -16,9 +16,13 @@ import net.minecraft.world.WorldView;
 import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(AbstractPressurePlateBlock.class)
 public abstract class AbstractPressurePlateBlockMixin extends Block {
+    @Shadow
+    protected abstract int getRedstoneOutput(BlockState var1);
+
     public AbstractPressurePlateBlockMixin(Settings settings) {
         super(settings);
     }
@@ -37,6 +41,4 @@ public abstract class AbstractPressurePlateBlockMixin extends Block {
         }
         return 0;
     }
-
-    public abstract int getRedstoneOutput(BlockState var1);
 }

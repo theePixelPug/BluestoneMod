@@ -32,7 +32,7 @@ public class BluestoneComparatorBlock extends AbstractBluestoneGateBlock impleme
 
     public BluestoneComparatorBlock(AbstractBlock.Settings settings) {
         super(settings);
-        this.setDefaultState((BlockState)((BlockState)((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.NORTH)).with(BLUESTONE_POWERED, false)).with(MODE, ComparatorMode.COMPARE));
+        this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH).with(BLUESTONE_POWERED, false).with(MODE, ComparatorMode.COMPARE));
     }
 
     protected int getUpdateDelayInternal(BlockState state) {
@@ -74,7 +74,7 @@ public class BluestoneComparatorBlock extends AbstractBluestoneGateBlock impleme
 
     protected int getPower(World world, BlockPos pos, BlockState state) {
         int i = super.getPower(world, pos, state);
-        Direction direction = (Direction)state.get(FACING);
+        Direction direction = state.get(FACING);
         BlockPos blockPos = pos.offset(direction);
         BlockState blockState = world.getBlockState(blockPos);
         if (blockState.hasComparatorOutput()) {

@@ -10,6 +10,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.WorldAccess;
 import net.theepixelpug.bluestone.particle.PurpleDustParticleEffect;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(LeverBlock.class)
 public abstract class LeverBlockMixin extends WallMountedBlock {
@@ -32,7 +33,12 @@ public abstract class LeverBlockMixin extends WallMountedBlock {
         return true;
     }
 
-    private static void spawnParticles(BlockState state, WorldAccess world, BlockPos pos, float alpha) {
+    /**
+     * @author theePixelPug
+     * @reason Purple particles go brrr
+     */
+    @Overwrite
+    public static void spawnParticles(BlockState state, WorldAccess world, BlockPos pos, float alpha) {
         Direction direction = state.get(FACING).getOpposite();
         Direction direction2 = LeverBlock.getDirection(state).getOpposite();
         double d = (double)pos.getX() + 0.5 + 0.1 * (double)direction.getOffsetX() + 0.2 * (double)direction2.getOffsetX();
